@@ -7,3 +7,11 @@ function maxNumber (a , b) {
     return Math.max (a, b);
 }
 console.log(maxNumber());
+
+//=======
+//N2 
+function changeNumber (a, b) {
+    if (a) return console.log((`${b}, ${a}`));
+    else console.log((`${a}, ${b}`));
+} 
+changeNumber(15, 25)
